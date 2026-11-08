@@ -1,3 +1,0 @@
-Record A,50,100
-Record B,120,100
-Record C,150,100
