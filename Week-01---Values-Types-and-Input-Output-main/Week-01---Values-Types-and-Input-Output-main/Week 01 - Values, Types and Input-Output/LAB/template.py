@@ -12,14 +12,6 @@ Work through the numbered sections in order. Each one tells you what it must do.
 Delete these instructions as you replace them with your code.
 """
 
-print()
-print("=" * 34)
-print(f"  RECORD CHECK  -  {label}")
-print("=" * 34)
-
-
-print("=" * 34)
-
 label = input("Enter a name, hostname, or IP: ")
 first = float(input("Enter the first number: "))
 second = float(input("Enter the second number: "))

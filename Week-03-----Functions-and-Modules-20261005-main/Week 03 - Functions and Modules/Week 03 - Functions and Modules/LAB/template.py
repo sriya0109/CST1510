@@ -43,8 +43,6 @@ def print_report(label, value, limit, difference, percent, status):
     print(f"{'Status:':<18}{status:>10}")
     print("=" * 34)
 
-
-# Input, process and output multiple records
 over_limit_count = 0
 
 while True:

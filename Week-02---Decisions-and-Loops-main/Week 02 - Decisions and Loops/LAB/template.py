@@ -61,9 +61,6 @@ print()
 print("=" * 34)
 print(f"  RECORD CHECK  -  {label}")
 print("=" * 34)
-
-
-
 print("=" * 34)
 
 

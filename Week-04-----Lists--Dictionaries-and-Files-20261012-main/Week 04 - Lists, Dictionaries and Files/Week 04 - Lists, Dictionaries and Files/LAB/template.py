@@ -67,7 +67,6 @@ records = [
     {"label": "R-004", "value": 110.0, "limit": 100.0}
 ]
 
-# 3. PROCESS + OUTPUT
 
 over_limit_count = 0
 
@@ -79,7 +78,7 @@ with open("results.txt", "w") as output_file:
             record["limit"]
         )
 
-        # Print the report
+        
         print_report(
             record["label"],
             record["value"],
@@ -89,16 +88,12 @@ with open("results.txt", "w") as output_file:
             status
         )
 
-        # Count records over the limit
         if status == "OVER LIMIT":
             over_limit_count += 1
 
-        # Save the label and status to the output file
         output_file.write(
             f"{record['label']}, {status}\n"
         )
-
-# Printing the final count by using print_report
 print_report(over_limit_count=over_limit_count)
 
 print("Results saved to results.txt")
