@@ -38,7 +38,7 @@ def parse_line(raw_line):
         else:
             answers[key] = value
 
-    
+
     required_fields = ["survey_id", "rating", "age"]
 
     for field in required_fields:
